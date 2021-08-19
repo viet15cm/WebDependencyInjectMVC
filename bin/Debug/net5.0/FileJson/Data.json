@@ -1,0 +1,25 @@
+{
+  "Product": [
+    {
+      "Id": "1",
+      "Name": "DTNKA",
+      "Price": 12345
+    },
+    {
+      "Id": "2",
+      "Name": "DTNKA",
+      "Price": 12345
+    },
+    {
+      "Id": "3",
+      "Name": "DTNKA",
+      "Price": 12345
+    },
+    {
+      "Id": "4",
+      "Name": "DTNKA",
+      "Price": 12345
+    }
+
+  ]
+}

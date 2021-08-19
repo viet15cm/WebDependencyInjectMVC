@@ -39,3 +39,4 @@ D:\C#\WebDependencyInjectMVC\obj\Debug\net5.0\ref\WebDependencyInjectMVC.dll
 D:\C#\WebDependencyInjectMVC\obj\Debug\net5.0\WebDependencyInjectMVC.pdb
 D:\C#\WebDependencyInjectMVC\obj\Debug\net5.0\WebDependencyInjectMVC.genruntimeconfig.cache
 D:\C#\WebDependencyInjectMVC\obj\Debug\net5.0\WebDependencyInjectMVC.csproj.CopyComplete
+D:\C#\WebDependencyInjectMVC\bin\Debug\net5.0\FileJson\Data.json

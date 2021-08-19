@@ -27,7 +27,20 @@ namespace WebDependencyInjectMVC
             // DIch vu nay co the inject vao cac dich vu khac , hoac inject vao cac controller
             // Vi du ta inject vao home controler
             //services.AddSingleton<ProductService>();
-            services.AddSingleton<ProductService>();
+            services.AddSingleton<ProductService>((provider) => {
+               
+                var products = new List<Product>();
+                products.AddRange(new Product[] {
+
+                    new Product(){ Id ="1" , Name ="Dien Thoai IP" , Price = 50000 },
+                    new Product(){ Id ="2" , Name ="Dien Thoai ss" , Price = 60000 },
+                    new Product(){ Id ="3" , Name ="Dien Thoai tt" , Price = 70000 },
+                    new Product(){ Id ="4" , Name ="Dien Thoai ll" , Price = 80000 },
+                });
+                var productSevice = new ProductService(products);
+ //               var product = new ProductService(ProductService.GetListFile());
+                return productSevice;
+            });
             services.AddControllersWithViews();
 
         }
